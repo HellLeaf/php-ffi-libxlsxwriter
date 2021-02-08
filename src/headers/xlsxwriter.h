@@ -2770,7 +2770,7 @@ uint16_t lxw_name_to_col(const char *col_str);
 uint32_t lxw_name_to_row_2(const char *row_str);
 uint16_t lxw_name_to_col_2(const char *col_str);
 
-double lxw_datetime_to_excel_date(lxw_datetime *datetime, uint8_t date_1904);
+#double lxw_datetime_to_excel_date(lxw_datetime *datetime, uint8_t date_1904);
 
 char *lxw_strdup(const char *str);
 char *lxw_strdup_formula(const char *formula);
